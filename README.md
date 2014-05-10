@@ -1,7 +1,7 @@
 pimatic-athome-arduino
 ======================
 
-##OverView
+##Overview
 
 This is the Arduino source code to communicate with the [pimatic-athome plugin](https://github.com/dfischbach/pimatic-athome).
 
