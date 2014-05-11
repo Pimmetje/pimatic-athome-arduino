@@ -17,6 +17,19 @@ The JeeNode measures the values and sends them wireless to the first JeeNode.
 
 Copy the AtHomeLib folder to the Arduino IDEs library folder. It is no real library but it is used to share the header with the definitions for the wireless network between the sender and the receiver source code.
 
+Other required Arduino libraries:
+
+[JeeLib](https://github.com/jcw/jeelib) : supoort for the JeeNodes and the wireless radio modules
+
+[SerialCommand](https://github.com/kroimon/Arduino-SerialCommand): tokenize and parse commands received over the serial port
+
+[RCSwitch](https://code.google.com/p/rc-switch/): operate remote radio controlled devices 315/433MHz
+
+[OneWire](http://www.pjrc.com/teensy/td_libs_OneWire.html): support for the 1-wire bus
+
+[DallasTemperature](http://milesburton.com/Main_Page?title=Dallas_Temperature_Control_Library): support for Dallas 1-Wire temperature devices
+
+
 Modify the source code for your needs, e.g. use only one microcontroller to periodically send test values.
 
 
