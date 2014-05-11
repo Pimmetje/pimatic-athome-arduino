@@ -32,5 +32,8 @@ Other required Arduino libraries:
 
 Modify the source code for your needs, e.g. use only one microcontroller to periodically send test values.
 
+![Transmitter](https://github.com/dfischbach/pimatic-athome-arduino/blob/master/Doc/AtHome%20Transmitter.png?raw=true)
+
+
 
 More detailed documentation will follow.
